@@ -1,6 +1,12 @@
-# StoreAdminPanel
+# SimpleStoreAdminPanel
+Projeto de criação de um painel administrativo simples para uma loja com dashboard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+
+## Tecnologias utilizadas
+- Angular 11.2.14
+- Rxjs 6.6.7
+- TypeScript 4.1.6
 
 ## Development server
 
