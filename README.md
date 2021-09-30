@@ -8,6 +8,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Rxjs 6.6.7
 - TypeScript 4.1.6
 
+## Projeto publicado
+
+Visualize o projeto publicado no link https://store-admin-panel.herokuapp.com/
+
 ## Servidor de desenvolvimento
 
 Para rodar local, rode o comando `ng serve`. Navegue para a url `http://localhost:4200/`. O app carrega automaticamente
