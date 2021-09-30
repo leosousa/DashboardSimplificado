@@ -32,6 +32,7 @@ import { StoreSessionsChartComponent } from './charts/store-sessions-chart/store
 import { OrdersTableComponent } from './orders/orders-table/orders-table.component';
 import { SalesTableComponent } from './sales/sales-table/sales-table.component';
 import { CustomersTableComponent } from './customers/customers-table/customers-table.component';
+import { ProductTableComponent } from './products/product-table/product-table.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { CustomersTableComponent } from './customers/customers-table/customers-t
     StoreSessionsChartComponent,
     OrdersTableComponent,
     SalesTableComponent,
-    CustomersTableComponent
+    CustomersTableComponent,
+    ProductTableComponent
   ],
   imports: [
     BrowserModule,

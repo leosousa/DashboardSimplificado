@@ -5,13 +5,14 @@ import { DashComponent } from './dash/dash.component';
 import { OrdersTableComponent } from './orders/orders-table/orders-table.component';
 import { SalesTableComponent } from './sales/sales-table/sales-table.component';
 import { CustomersTableComponent } from './customers/customers-table/customers-table.component';
+import { ProductTableComponent } from './products/product-table/product-table.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashComponent },
   { path: 'vendas', component: SalesTableComponent },
   { path: 'pedidos', component: OrdersTableComponent },
   { path: 'clientes', component: CustomersTableComponent },
-  { path: 'produtos', component: DashComponent },
+  { path: 'produtos', component: ProductTableComponent },
 ];
 
 @NgModule({

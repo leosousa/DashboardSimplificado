@@ -45,5 +45,12 @@
           <app-customers-table></app-customers-table>
         </app-card>
       </mat-grid-tile>
+      <!--Produtos-->
+      <mat-grid-tile [colspan]="( cardLayout | async )?.table.cols" [rowspan]="( cardLayout | async )?.table.rows">
+        <app-card title="Produtos mais vendidos">
+          <app-product-table></app-product-table>
+        </app-card>
+      </mat-grid-tile>
+
     </mat-grid-list>
   </div>
