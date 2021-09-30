@@ -7,7 +7,7 @@ const app = express();
 // Serve only the static files form the dist directory
 app.use(express.static('./dist/store-admin-panel'));
 
-app.get('/*', (req, res) =>
+app.get('/', (req, res) =>
     res.sendFile('index.html', {root: 'dist/store-admin-panel/index.html'}),
 );
 
