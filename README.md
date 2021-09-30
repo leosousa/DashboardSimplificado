@@ -1,7 +1,7 @@
 # Painel administrativo com dashboard
 Projeto de criação de um painel administrativo simples para uma loja com dashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+Visualize o projeto publicado no link https://store-admin-panel.herokuapp.com/
 
 ![](https://store-admin-panel.herokuapp.com/assets/print.dash01.PNG)
 ![](https://store-admin-panel.herokuapp.com/assets/print.dash02.PNG)
@@ -11,16 +11,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 - Rxjs 6.6.7
 - TypeScript 4.1.6
 
-## Projeto publicado
-
-Visualize o projeto publicado no link https://store-admin-panel.herokuapp.com/
+Obs.: Projeto gerado com [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
 
 ## Servidor de desenvolvimento
 
 Para rodar local, rode o comando `ng serve`. Navegue para a url `http://localhost:4200/`. O app carrega automaticamente
 quando há alguma alteração nos arquivos.
 
-## Code scaffolding
+## Gerador de código
 
 Rode o comando `ng generate component component-name` para gerar um novo componente. Você também pode usar os seguintes comandos `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
@@ -32,7 +30,7 @@ Rode `ng build` para buildar o projeto. O pacote de publicação será gerado no
 
 Rode `ng test` para executar os testes unitário através do [Karma](https://karma-runner.github.io).
 
-## End-to-end tests
+## Testes de ponta a ponta
 
 Rode `ng e2e` para executar testes de ponta a ponta com [Protractor](http://www.protractortest.org/).
 
