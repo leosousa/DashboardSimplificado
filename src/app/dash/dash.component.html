@@ -39,5 +39,11 @@
           <app-orders-table></app-orders-table>
         </app-card>
       </mat-grid-tile>
+      <!--Clientes-->
+      <mat-grid-tile [colspan]="( cardLayout | async )?.table.cols" [rowspan]="( cardLayout | async )?.table.rows">
+        <app-card title="Últimos clientes">
+          <app-customers-table></app-customers-table>
+        </app-card>
+      </mat-grid-tile>
     </mat-grid-list>
   </div>

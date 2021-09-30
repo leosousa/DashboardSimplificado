@@ -4,12 +4,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { DashComponent } from './dash/dash.component';
 import { OrdersTableComponent } from './orders/orders-table/orders-table.component';
 import { SalesTableComponent } from './sales/sales-table/sales-table.component';
+import { CustomersTableComponent } from './customers/customers-table/customers-table.component';
 
 const routes: Routes = [
   { path: 'dashboard', component: DashComponent },
   { path: 'vendas', component: SalesTableComponent },
   { path: 'pedidos', component: OrdersTableComponent },
-  { path: 'clientes', component: DashComponent },
+  { path: 'clientes', component: CustomersTableComponent },
   { path: 'produtos', component: DashComponent },
 ];
 

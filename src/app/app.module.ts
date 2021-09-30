@@ -31,6 +31,7 @@ import { AnnualSalesChartComponent } from './charts/annual-sales-chart/annual-sa
 import { StoreSessionsChartComponent } from './charts/store-sessions-chart/store-sessions-chart.component';
 import { OrdersTableComponent } from './orders/orders-table/orders-table.component';
 import { SalesTableComponent } from './sales/sales-table/sales-table.component';
+import { CustomersTableComponent } from './customers/customers-table/customers-table.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { SalesTableComponent } from './sales/sales-table/sales-table.component';
     AnnualSalesChartComponent,
     StoreSessionsChartComponent,
     OrdersTableComponent,
-    SalesTableComponent
+    SalesTableComponent,
+    CustomersTableComponent
   ],
   imports: [
     BrowserModule,
