@@ -8,6 +8,7 @@ import { CustomersTableComponent } from './customers/customers-table/customers-t
 import { ProductTableComponent } from './products/product-table/product-table.component';
 
 const routes: Routes = [
+  { path: '', component: DashComponent },
   { path: 'dashboard', component: DashComponent },
   { path: 'vendas', component: SalesTableComponent },
   { path: 'pedidos', component: OrdersTableComponent },
