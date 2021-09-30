@@ -12,11 +12,11 @@ export class ProductSalesChartComponent implements OnInit {
   public radarChartOptions: ChartOptions = {
     responsive: true,
   };
-  public radarChartLabels: Label[] = ['Bags', 'Wallets', 'Keyholders', 'Other', 'Cases'];
+  public radarChartLabels: Label[] = ['Bolsas', 'Carteiras', 'Porta-chaves', 'Outros', 'Estojos'];
 
   public radarChartData: ChartDataSets[] = [
     { data: [65, 59, 90, 81, 56], label: 'Online' },
-    { data: [28, 48, 40, 19, 96], label: 'In Store' }
+    { data: [28, 48, 40, 19, 96], label: 'Na loja' }
   ];
   public radarChartType: ChartType = 'radar';
 

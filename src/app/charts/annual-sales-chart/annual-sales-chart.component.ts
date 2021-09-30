@@ -13,7 +13,7 @@ export class AnnualSalesChartComponent implements OnInit {
   errorMessage: string;
 
   public salesChartData: ChartDataSets[] = [
-    { data: [], label: 'Total Sales' },
+    { data: [], label: 'Total Vendas' },
   ];
 
   public salesChartLabels: Label[] = [];
@@ -24,7 +24,7 @@ export class AnnualSalesChartComponent implements OnInit {
   };
   public salesChartColors: Color[] = [
     {
-      borderColor: 'black',
+      borderColor: 'green',
       backgroundColor: 'rgba(12, 202, 74,1)',
     },
   ];

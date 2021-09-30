@@ -4,32 +4,38 @@
       <!--Mini Cards-->
       <mat-grid-tile *ngFor="let mc of miniCardData" [colspan]="( cardLayout | async )?.miniCard.cols"
         [rowspan]="( cardLayout | async )?.miniCard.rows">
-        <app-mini-card [icon]="mc.icon" [title]="mc.title" [value]="mc.value" [color]="mc.color" [isIncrease]="mc.isIncrease" duration="since last month" [percentValue]="mc.percentValue" [isCurrency]="mc. isCurrency"></app-mini-card>
+        <app-mini-card [icon]="mc.icon" [title]="mc.title" [value]="mc.value" [color]="mc.color" [isIncrease]="mc.isIncrease" duration="Último mês" [percentValue]="mc.percentValue" [isCurrency]="mc. isCurrency"></app-mini-card>
       </mat-grid-tile>
       <!--Charts-->
       <mat-grid-tile [colspan]="( cardLayout | async )?.chart.cols" [rowspan]="( cardLayout | async )?.chart.rows">
-        <app-card title="Monthly Revenue">
+        <app-card title="Receita mensal">
           <app-annual-sale-chart></app-annual-sale-chart>
         </app-card>
       </mat-grid-tile>
       <mat-grid-tile [colspan]="( cardLayout | async )?.chart.cols" [rowspan]="( cardLayout | async )?.chart.rows">
-        <app-card title="Product Sales">
+        <app-card title="Venda de produtos">
           <app-product-sales-chart></app-product-sales-chart>
         </app-card>
       </mat-grid-tile>
       <mat-grid-tile [colspan]="( cardLayout | async )?.chart.cols" [rowspan]="( cardLayout | async )?.chart.rows">
-        <app-card title="Sales by Traffic Source">
+        <app-card title="Vendas por fonte de tráfego">
           <app-sales-traffic-chart></app-sales-traffic-chart>
         </app-card>
       </mat-grid-tile>
       <mat-grid-tile [colspan]="( cardLayout | async )?.chart.cols" [rowspan]="( cardLayout | async )?.chart.rows">
-        <app-card title="Online Store Sessions by Traffic Source">
+        <app-card title="Sessões da loja online por fonte de tráfego">
           <app-store-sessions-chart></app-store-sessions-chart>
         </app-card>
       </mat-grid-tile>
-      <!--Table-->
+      <!--Vendas-->
       <mat-grid-tile [colspan]="( cardLayout | async )?.table.cols" [rowspan]="( cardLayout | async )?.table.rows">
-        <app-card title="Latest Orders">
+        <app-card title="Últimas vendas">
+          <app-sales-table></app-sales-table>
+        </app-card>
+      </mat-grid-tile>
+      <!--Pedidos-->
+      <mat-grid-tile [colspan]="( cardLayout | async )?.table.cols" [rowspan]="( cardLayout | async )?.table.rows">
+        <app-card title="Últimos pedidos">
           <app-orders-table></app-orders-table>
         </app-card>
       </mat-grid-tile>

@@ -30,6 +30,7 @@ import { SalesTrafficChartComponent } from './charts/sales-traffic-chart/sales-t
 import { AnnualSalesChartComponent } from './charts/annual-sales-chart/annual-sales-chart.component';
 import { StoreSessionsChartComponent } from './charts/store-sessions-chart/store-sessions-chart.component';
 import { OrdersTableComponent } from './orders/orders-table/orders-table.component';
+import { SalesTableComponent } from './sales/sales-table/sales-table.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { OrdersTableComponent } from './orders/orders-table/orders-table.compone
     SalesTrafficChartComponent,
     AnnualSalesChartComponent,
     StoreSessionsChartComponent,
-    OrdersTableComponent
+    OrdersTableComponent,
+    SalesTableComponent
   ],
   imports: [
     BrowserModule,

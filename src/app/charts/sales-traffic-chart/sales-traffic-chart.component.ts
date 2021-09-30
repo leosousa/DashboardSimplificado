@@ -12,7 +12,7 @@ export class SalesTrafficChartComponent implements OnInit {
   public pieChartOptions: ChartOptions = {
     responsive: true,
   };
-  public pieChartLabels: Label[] = ['Search', 'Direct', 'Social', 'Email', 'Unknown'];
+  public pieChartLabels: Label[] = ['Pesquisa', 'Direct', 'Rede social', 'Email', 'Desconhecido'];
   public pieChartData: SingleDataSet = [734, 621, 543, 193, 275];
   public pieChartType: ChartType = 'pie';
   public pieChartLegend = true;

@@ -12,7 +12,7 @@ export class StoreSessionsChartComponent implements OnInit {
   public barChartOptions: ChartOptions = {
     responsive: true
   };
-  public barChartLabels: Label[] = ['Search', 'Direct', 'Social', 'Email', 'Unknown'];
+  public barChartLabels: Label[] = ['Pesquisa', 'Direct', 'Redes social', 'Email', 'Desconhecido'];
   public barChartType: ChartType = 'bar';
   public barChartLegend = true;
   public barChartPlugins = [];
@@ -24,7 +24,7 @@ export class StoreSessionsChartComponent implements OnInit {
   ];
 
   public barChartData: ChartDataSets[] = [
-    { data: [365, 259, 180, 281, 156], label: 'Number of Sessions' }
+    { data: [365, 259, 180, 281, 156], label: 'Número de sessões' }
   ];
 
   constructor() { }
