@@ -1,7 +1,10 @@
-# SimpleStoreAdminPanel
+# Painel administrativo com dashboard
 Projeto de criação de um painel administrativo simples para uma loja com dashboard
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.10.
+
+![](https://store-admin-panel.herokuapp.com/assets/print.dash01.PNG)
+![](https://store-admin-panel.herokuapp.com/assets/print.dash02.PNG)
 
 ## Tecnologias utilizadas
 - Angular 11.2.14
